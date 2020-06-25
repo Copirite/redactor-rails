@@ -1,5 +1,5 @@
 
-# Rails 3.2 Integration for Redactor (Devise Edition)
+# Rails 3.2 Integration for Redactor (Devise Edition) - Copirite
 
 The redactor-rails gem integrates the [Redactor](http://redactorjs.com/) editor with the Rails 3.2 asset pipeline.
 
