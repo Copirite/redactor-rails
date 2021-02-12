@@ -8,7 +8,9 @@ module RedactorRails
     end
 
     initializer "redactor_devise" do |app|
-      ActionController::Base.send :include, RedactorRails::Devise
+      ActiveSupport.on_load(:action_controller) do
+        include RedactorRails::Devise
+      end
     end
   end
 end
